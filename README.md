@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails application which stores whois data for domains.
 
-Things you may want to cover:
 
-* Ruby version
+## Starting the app
 
-* System dependencies
+In a local development environment with Ruby and Bundler installed:
 
-* Configuration
+```
+cd whois-store
+bundle install
+rails s
+```
 
-* Database creation
+## Running tests
 
-* Database initialization
+Tests can be run with `rails test` after installing the application dependencies with `bundle install`.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Using vagdffran
 
-* Deployment instructions
-
-* ...
